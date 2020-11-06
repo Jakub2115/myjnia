@@ -21,24 +21,60 @@
     <main>
         <form action="#">
             <fieldset>
+                <label for="none">Podaj imie </label><input type="text" placeholder="Wypisz swoje imie" name="none"/><br>
             <legend>Usługa</legend>
              <label for="Mycie"> Mycie zewnetrzne 30zl</label><input type="checkbox" id="mycie" name="mycie" value="mycie"></br>
              <label for="suszenie">Suszenie 10zl</label><input type="checkbox" id="suszenie" name="suszenie" value="suszenie"></br>
              <label for="woskowanie">woskowanie 15zl</label><input type="checkbox" id="woskowanie" name="woskowanie" value="woskowanie"></br>
-             <label for="odkurzanie">odkurzanie 10zl</label>odkurzanie<input type="checkbox" id="odkurzanie" name="odkurzanie" value="odkurzanie"></br>
+             <label for="odkurzanie">odkurzanie 10zl</label><input type="checkbox" id="odkurzanie" name="odkurzanie" value="odkurzanie"></br>
             
 
 
 
 
         </fieldset>
+        <fieldset>
+            <legend>Rodzaj pojazdu</legend>
+            <select name="vahtype" id="vahtype">
+                <option>Sredni (+10%)</option>
+                <option>Van (+20%)</option>
+
+                <option>Bus (+45%)</option>
+
+
+
+            </select>
+
+           </fieldset>
+           <fieldset>
+            <legend>karta stałego klienta</legend>
+            <label for="none">Brak</label><input type="checkbox" id="none" name="card"><br>
+            <label for="silver">Srebrna (-5%)</label><input type="checkbox" id="silver" name="card"><br>
+            <label for="gold">Zlota (-10%)</label><input type="checkbox" id="gold" name="card"><br>
+
+            </fieldset>
+            <input type="reset" value="wyczysc"/>
+            <input type="submit" value="Oblicz"/>
+            
+
+
 
 
         </form>
+        <img src="hand_m.jpg">
+        <p>koszt uslugi</p>
 
     </main>
-    <aside></aside>
-<footer></footer>
+    <aside>
+        <h2>
+            rezerwacja na godzine
+        </h2>
+        <p>rezerwacja na godzine. Rezerwuj termin mycia samochodu.Masz malo czasu? Nie lubisz czekac? Zarezerwuj mycie na konkretna godzine</p>
+
+
+
+    </aside>
+<footer><p>Jakub Przywuski<span>3i</span></p></footer>
    </div> 
 </body>
 </html>
