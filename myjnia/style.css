@@ -1,6 +1,19 @@
 body {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+
 }
 
 header {
@@ -9,6 +22,7 @@ header {
     border-top-color: hsl(240, 50%, 50%);
     border-top-width: 2px;
     border-top-style: solid;
+    width: 100%;
 
 }
 
@@ -17,4 +31,34 @@ header>ul>a>li {
     text-decoration: none;
     padding: 0.5rem 2rem;
     border-radius: 0.25rem;
+}
+
+header>ul>a {
+
+    text-decoration: none;
+}
+
+main {
+    background-color: hsl(240, 50%, 90%);
+    border-radius: 1, 5em;
+    width: 60%;
+}
+
+aside {
+    background-color: hsl(240, 50%, 90%);
+    border-radius: 1, 5em;
+    width: 30%;
+
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: hsl(240, 50%, 90%);
+    border-radius: 1, 5em;
+
 }
